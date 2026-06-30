@@ -1,0 +1,23 @@
+.article_gallery {
+  background-color:  rgb(26, 18, 8, .8);
+  border-radius: 10px;
+  border: solid #6a5430 2px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem
+}
+
+
+
+.article_preview {
+    padding: 10px;
+
+}
+
+.image_preview {
+    max-width: 100px;
+}
+
+.titulo {
+    font-weight: bold;
+}
