@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import Inicio from "../pages/Inicio";
 import LaraCroft from "../pages/LaraCroft";
 import ElJuego from "../pages/ElJuego";
+import ElJuegoDetalle from "../pages/ElJuegoDetalle";
 import Galeria from "../pages/Galeria";
 import SobreMi from "../pages/SobreMi";
 import GaleriaDetail from "../pages/GaleriaDetalle";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/" element={<Inicio />}/>
         <Route path="/lara-croft" element={<LaraCroft/>}/>
         <Route path="/el-juego" element={<ElJuego />}/>
+        <Route path="/el-juego/:id" element={<ElJuegoDetalle />}/>
         <Route path="/galeria" element={<Galeria />}/>
         <Route path="/sobre-mi" element={<SobreMi />}/>
         <Route path="/galeria/:id" element={<GaleriaDetail />}/>
