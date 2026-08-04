@@ -11,7 +11,7 @@ function GaleriaDetail() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/api/api-gallery.json")
+    fetch(`${import.meta.env.BASE_URL}/api/api-gallery.json`)
       .then((res) => res.json())
       .then((data) => {
         console.log("todas las imágenes:", data);
@@ -47,7 +47,7 @@ function GaleriaDetail() {
             <img
               className="image_detail"
               key={image.id}
-              src={image.src}
+              src={`${import.meta.env.BASE_URL}${image.src.replace(/^\//, "")}`}
               alt={image.alt}
             />
           ) : (
@@ -62,7 +62,7 @@ function GaleriaDetail() {
             {allImages.map((img) => (
               <img
                 key={img.id}
-                src={img.src}
+                src={`${import.meta.env.BASE_URL}${img.src.replace(/^\//, "")}`}
                 alt={img.alt}
                 className={
                   img.id === Number(id) ? "thumbnail active" : "thumbnail"
