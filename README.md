@@ -1,5 +1,3 @@
-# Proyecto con React
-
 # MY TOMB RAIDER CORNER
 
 **My Tomb Raider Corner** es una página web creada como proyecto de aprendizaje y, al mismo tiempo, como una forma de compartir mi pasión por la saga **Tomb Raider**.
