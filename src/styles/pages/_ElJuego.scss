@@ -11,6 +11,7 @@
   background: rgba(14, 11, 5, 0.83);
   margin-bottom: 1rem;
   box-shadow: 3px 3px 5px 4px rgba(0,0,0,0.7);
+  max-width: 500px;
   transition: 
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -45,4 +46,8 @@
     font: 1rem;
     color: #8a7450;
     line-height: 1.7;
+}
+
+@media all and (max-width: 500px) {
+  
 }

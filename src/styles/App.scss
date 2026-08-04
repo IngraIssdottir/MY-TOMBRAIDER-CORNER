@@ -68,3 +68,12 @@
   padding: 1rem;
   min-height: calc(100vh - 120px);
 }
+
+@media all and (max-width: 500px) {
+ .bg-image {
+  background-image: url("/src/images/JopqaeT.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+}
